@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99B4D22E1E36C7EC00E3DA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D22D1E36C7EC00E3DA65 /* AppDelegate.swift */; };
+		99B4D2301E36C7EC00E3DA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D22F1E36C7EC00E3DA65 /* ViewController.swift */; };
+		99B4D2331E36C7EC00E3DA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B4D2311E36C7EC00E3DA65 /* Main.storyboard */; };
+		99B4D2351E36C7EC00E3DA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B4D2341E36C7EC00E3DA65 /* Assets.xcassets */; };
+		99B4D2381E36C7EC00E3DA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B4D2361E36C7EC00E3DA65 /* LaunchScreen.storyboard */; };
+		99B4D2431E36C7ED00E3DA65 /* TacoPacoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D2421E36C7ED00E3DA65 /* TacoPacoTests.swift */; };
+		99B4D24E1E36C7ED00E3DA65 /* TacoPacoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D24D1E36C7ED00E3DA65 /* TacoPacoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99B4D23F1E36C7ED00E3DA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B4D2221E36C7EC00E3DA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B4D2291E36C7EC00E3DA65;
+			remoteInfo = TacoPaco;
+		};
+		99B4D24A1E36C7ED00E3DA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B4D2221E36C7EC00E3DA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B4D2291E36C7EC00E3DA65;
+			remoteInfo = TacoPaco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99B4D22A1E36C7EC00E3DA65 /* TacoPaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B4D22D1E36C7EC00E3DA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99B4D22F1E36C7EC00E3DA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99B4D2321E36C7EC00E3DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B4D2341E36C7EC00E3DA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99B4D2371E36C7EC00E3DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B4D2391E36C7EC00E3DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B4D23E1E36C7ED00E3DA65 /* TacoPacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B4D2421E36C7ED00E3DA65 /* TacoPacoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPacoTests.swift; sourceTree = "<group>"; };
+		99B4D2441E36C7ED00E3DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B4D2491E36C7ED00E3DA65 /* TacoPacoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPacoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B4D24D1E36C7ED00E3DA65 /* TacoPacoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPacoUITests.swift; sourceTree = "<group>"; };
+		99B4D24F1E36C7ED00E3DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B4D2271E36C7EC00E3DA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B4D23B1E36C7ED00E3DA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B4D2461E36C7ED00E3DA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99B4D2211E36C7EC00E3DA65 = {
+			isa = PBXGroup;
+			children = (
+				99B4D25B1E36C80500E3DA65 /* New Group */,
+				99B4D22C1E36C7EC00E3DA65 /* TacoPaco */,
+				99B4D2411E36C7ED00E3DA65 /* TacoPacoTests */,
+				99B4D24C1E36C7ED00E3DA65 /* TacoPacoUITests */,
+				99B4D22B1E36C7EC00E3DA65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99B4D22B1E36C7EC00E3DA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B4D22A1E36C7EC00E3DA65 /* TacoPaco.app */,
+				99B4D23E1E36C7ED00E3DA65 /* TacoPacoTests.xctest */,
+				99B4D2491E36C7ED00E3DA65 /* TacoPacoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B4D22C1E36C7EC00E3DA65 /* TacoPaco */ = {
+			isa = PBXGroup;
+			children = (
+				99B4D22D1E36C7EC00E3DA65 /* AppDelegate.swift */,
+				99B4D22F1E36C7EC00E3DA65 /* ViewController.swift */,
+				99B4D2311E36C7EC00E3DA65 /* Main.storyboard */,
+				99B4D2341E36C7EC00E3DA65 /* Assets.xcassets */,
+				99B4D2361E36C7EC00E3DA65 /* LaunchScreen.storyboard */,
+				99B4D2391E36C7EC00E3DA65 /* Info.plist */,
+			);
+			path = TacoPaco;
+			sourceTree = "<group>";
+		};
+		99B4D2411E36C7ED00E3DA65 /* TacoPacoTests */ = {
+			isa = PBXGroup;
+			children = (
+				99B4D2421E36C7ED00E3DA65 /* TacoPacoTests.swift */,
+				99B4D2441E36C7ED00E3DA65 /* Info.plist */,
+			);
+			path = TacoPacoTests;
+			sourceTree = "<group>";
+		};
+		99B4D24C1E36C7ED00E3DA65 /* TacoPacoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99B4D24D1E36C7ED00E3DA65 /* TacoPacoUITests.swift */,
+				99B4D24F1E36C7ED00E3DA65 /* Info.plist */,
+			);
+			path = TacoPacoUITests;
+			sourceTree = "<group>";
+		};
+		99B4D25B1E36C80500E3DA65 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B4D2291E36C7EC00E3DA65 /* TacoPaco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B4D2521E36C7ED00E3DA65 /* Build configuration list for PBXNativeTarget "TacoPaco" */;
+			buildPhases = (
+				99B4D2261E36C7EC00E3DA65 /* Sources */,
+				99B4D2271E36C7EC00E3DA65 /* Frameworks */,
+				99B4D2281E36C7EC00E3DA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacoPaco;
+			productName = TacoPaco;
+			productReference = 99B4D22A1E36C7EC00E3DA65 /* TacoPaco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99B4D23D1E36C7ED00E3DA65 /* TacoPacoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B4D2551E36C7ED00E3DA65 /* Build configuration list for PBXNativeTarget "TacoPacoTests" */;
+			buildPhases = (
+				99B4D23A1E36C7ED00E3DA65 /* Sources */,
+				99B4D23B1E36C7ED00E3DA65 /* Frameworks */,
+				99B4D23C1E36C7ED00E3DA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B4D2401E36C7ED00E3DA65 /* PBXTargetDependency */,
+			);
+			name = TacoPacoTests;
+			productName = TacoPacoTests;
+			productReference = 99B4D23E1E36C7ED00E3DA65 /* TacoPacoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99B4D2481E36C7ED00E3DA65 /* TacoPacoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B4D2581E36C7ED00E3DA65 /* Build configuration list for PBXNativeTarget "TacoPacoUITests" */;
+			buildPhases = (
+				99B4D2451E36C7ED00E3DA65 /* Sources */,
+				99B4D2461E36C7ED00E3DA65 /* Frameworks */,
+				99B4D2471E36C7ED00E3DA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B4D24B1E36C7ED00E3DA65 /* PBXTargetDependency */,
+			);
+			name = TacoPacoUITests;
+			productName = TacoPacoUITests;
+			productReference = 99B4D2491E36C7ED00E3DA65 /* TacoPacoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B4D2221E36C7EC00E3DA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Yashwanth;
+				TargetAttributes = {
+					99B4D2291E36C7EC00E3DA65 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					99B4D23D1E36C7ED00E3DA65 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B4D2291E36C7EC00E3DA65;
+					};
+					99B4D2481E36C7ED00E3DA65 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B4D2291E36C7EC00E3DA65;
+					};
+				};
+			};
+			buildConfigurationList = 99B4D2251E36C7EC00E3DA65 /* Build configuration list for PBXProject "TacoPaco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B4D2211E36C7EC00E3DA65;
+			productRefGroup = 99B4D22B1E36C7EC00E3DA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B4D2291E36C7EC00E3DA65 /* TacoPaco */,
+				99B4D23D1E36C7ED00E3DA65 /* TacoPacoTests */,
+				99B4D2481E36C7ED00E3DA65 /* TacoPacoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B4D2281E36C7EC00E3DA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B4D2381E36C7EC00E3DA65 /* LaunchScreen.storyboard in Resources */,
+				99B4D2351E36C7EC00E3DA65 /* Assets.xcassets in Resources */,
+				99B4D2331E36C7EC00E3DA65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B4D23C1E36C7ED00E3DA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B4D2471E36C7ED00E3DA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B4D2261E36C7EC00E3DA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B4D2301E36C7EC00E3DA65 /* ViewController.swift in Sources */,
+				99B4D22E1E36C7EC00E3DA65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B4D23A1E36C7ED00E3DA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B4D2431E36C7ED00E3DA65 /* TacoPacoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B4D2451E36C7ED00E3DA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B4D24E1E36C7ED00E3DA65 /* TacoPacoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99B4D2401E36C7ED00E3DA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B4D2291E36C7EC00E3DA65 /* TacoPaco */;
+			targetProxy = 99B4D23F1E36C7ED00E3DA65 /* PBXContainerItemProxy */;
+		};
+		99B4D24B1E36C7ED00E3DA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B4D2291E36C7EC00E3DA65 /* TacoPaco */;
+			targetProxy = 99B4D24A1E36C7ED00E3DA65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99B4D2311E36C7EC00E3DA65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B4D2321E36C7EC00E3DA65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B4D2361E36C7EC00E3DA65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B4D2371E36C7EC00E3DA65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B4D2501E36C7ED00E3DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99B4D2511E36C7ED00E3DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B4D2531E36C7ED00E3DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacoPaco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = local.TacoPaco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		99B4D2541E36C7ED00E3DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacoPaco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = local.TacoPaco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		99B4D2561E36C7ED00E3DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TacoPacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = local.TacoPacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacoPaco.app/TacoPaco";
+			};
+			name = Debug;
+		};
+		99B4D2571E36C7ED00E3DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TacoPacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = local.TacoPacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacoPaco.app/TacoPaco";
+			};
+			name = Release;
+		};
+		99B4D2591E36C7ED00E3DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TacoPacoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = local.TacoPacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TacoPaco;
+			};
+			name = Debug;
+		};
+		99B4D25A1E36C7ED00E3DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TacoPacoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = local.TacoPacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TacoPaco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B4D2251E36C7EC00E3DA65 /* Build configuration list for PBXProject "TacoPaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B4D2501E36C7ED00E3DA65 /* Debug */,
+				99B4D2511E36C7ED00E3DA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B4D2521E36C7ED00E3DA65 /* Build configuration list for PBXNativeTarget "TacoPaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B4D2531E36C7ED00E3DA65 /* Debug */,
+				99B4D2541E36C7ED00E3DA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99B4D2551E36C7ED00E3DA65 /* Build configuration list for PBXNativeTarget "TacoPacoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B4D2561E36C7ED00E3DA65 /* Debug */,
+				99B4D2571E36C7ED00E3DA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99B4D2581E36C7ED00E3DA65 /* Build configuration list for PBXNativeTarget "TacoPacoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B4D2591E36C7ED00E3DA65 /* Debug */,
+				99B4D25A1E36C7ED00E3DA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B4D2221E36C7EC00E3DA65 /* Project object */;
+}
